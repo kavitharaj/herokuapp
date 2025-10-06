@@ -35,7 +35,7 @@ try {
 		System.out.println(makeappointment);
 
 		if (makeappointment.equals("Make Appointment")) {
-			System.out.println("Test is passed if dont give visit date .........");
+			System.out.println("Test is passed if dont given visit date .........");
 			Assert.assertTrue(true);
 		} else {
 			System.out.println("make appointment page not open");
