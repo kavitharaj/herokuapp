@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="utilititiesClass.extentReportUtility"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.TC_APT_010"/>
+      <class name="testCases.TC_APT_011"/>
+      <class name="testCases.TC_APT_012"/>
+      <class name="testCases.TC_APT_013"/>
+      <class name="testCases.TC_APT_014"/>
+      <class name="testCases.TC_APT_015"/>
+      <class name="testCases.TC_APT_016"/>
+      <class name="testCases.TC_APT_TC019"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
